@@ -1,0 +1,1028 @@
+
+.wrapper{
+    width:100%;
+}
+
+.container{
+    width: 100%;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+header{
+    width: 100%;
+    padding-bottom: 30px;
+    position: absolute;
+    padding-top: 30px;
+    background-color: transparent;
+}
+
+header .logo{
+    width: 15%;
+    float: left;
+    margin-top: -20px;
+    padding-left: 40px;
+}
+
+header .logo h2{  
+    color: white;
+}
+  
+/* header .headmenu{
+  width: 85%;
+  float: left;
+  text-align: left;
+  align-items: left;
+}
+
+header .headmenu ul{
+    float: left;
+}
+
+header .headmenu ul li{
+    float: left;
+    padding:10px 20px;
+    display: block;
+}
+
+header .headmenu ul li a{
+    color: #4c4c4c;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 35px;
+    text-decoration: none;
+}
+ */
+
+header .headmenu ul li a:hover{
+    color: #e96e10;
+    border-bottom: 4px solid #e16d14;
+    padding-bottom: 10px;
+    font-weight: 500;
+} 
+.headmenu {
+    background:transparent;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.menu-toggle {
+    display: none;
+    cursor: pointer;
+    font-size: 24px;
+    color: white;
+}
+.headmenu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    margin-left: 20px;
+}
+.headmenu ul li {
+    margin: 0 10px;
+}
+.headmenu ul li a {
+    text-decoration: none;
+    padding: 10px;
+    color: #4c4c4c;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 35px;
+}
+.headmenu .page-scroll1 {
+    text-decoration: none;
+    padding: 10px;
+    color: #4c4c4c;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 35px;
+}
+.Section{
+    width: 100%;
+    height: 650px;
+    background-image: url(../images/Background-image1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.Section .carousel-inner{
+    text-align: center;
+}
+
+.Section .carousel-item h1{
+    font-size: 80px;
+    line-height: 80px;
+    color: #e16d14;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-style: italic;
+    padding-top: 60px;
+    padding-bottom: 30px;
+}
+
+.Section h6{
+    color: #4c4c4c; 
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.Section .read-us {
+    padding: 40px;
+}
+
+.Section .read-us .box{
+    padding-top: 40PX;
+    padding-bottom: 40PX;
+}
+
+.Section .read-us .box a{
+    color: #e96e10;
+    background-color: white;
+    text-decoration: none;
+    border: 1px;
+    padding: 25px 70px;
+    margin: 2px;
+    font-weight: 500;
+}
+
+.Section .read-us .box a:hover{
+    background-color: #e96e10;
+    color: white;
+}
+
+.Section-1{
+    background-color: #e96e10;
+    height: 130px;
+}
+
+.Section-2{
+    position: relative;
+    margin-top: -15%;
+    padding: 20px 60px; 
+}
+
+.Section-2 .card{
+    background-color: white;
+    padding: 20px 60px;
+    border-bottom: 5px solid #e16d14;
+}
+
+.Section-2 .card h5{
+    color: #e96e10;
+    font-size: 34px;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding-top: 20px; 
+}
+
+.Section-2 .card h4{
+    font-size: 24px;
+    padding-bottom: 30px;
+}
+  
+.Section-2 #filter-buttons button{
+    border-radius: 3px;
+    border: 2px solid #e16d14;
+    background: #fff;
+    font-size: 22px;
+}
+
+.Section-2 .mt-5{
+    margin-top: 0px!important;
+}
+
+.Section-2 #filter-buttons button:hover {
+    background: #ddd;
+}
+
+.Section-2 #filter-buttons button.active {
+    color: #fff;
+    border: 2px #e16d14;
+    background: #e16d14;
+}
+
+.Section-2 #filterable-cards .card {
+    width: 15rem;
+    border: 2px solid transparent;
+    box-shadow: #666666 1px 3px 3px 1px;
+    margin: 0px 6px 20px 0px;
+}
+
+.Section-2 #filterable-cards .card:hover{
+   border: 3px solid  #4c4c4c;
+   transition: all ease-in-out 0.5s;
+   box-sizing: border-box;
+}
+
+.Section-2 #filterable-cards .card.hide {
+    display: none;
+}
+
+.Section-2 .card-body{
+    padding: 5px 10px;
+}
+
+.Section-2 .card-title{
+    color: #e16d14;
+}
+
+.Section-2 h6{
+    margin-bottom: 0px;
+}
+
+
+
+.Section-3{
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 50px;
+}
+
+.Section-3 h6{
+    font-size: 22px;
+    font-weight: bold;
+    padding-top: 30px;
+}
+
+.Section-3 h3{
+    color: #e16d14;
+    font-size: 42px;
+    font-weight: bold;
+    
+    padding-bottom: 30px;
+}
+
+.Section-3 img:hover{
+    max-width: 100%;
+    transition: all 0.4s ease-in-out 0s;
+    transform: scale(1.1);
+    border-radius: 5px;
+}
+
+.Section-3 .textcard{
+    width: 100%;
+    padding: 20px;
+}
+
+.Section-3 .textcard .country{
+    width: 30%;
+    float: left;
+}
+
+.Section-3 .textcard .country h5{
+    color: #e16d14;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.Section-3 .textcard .price{
+    text-align: right;
+    width: 40%;
+    float: right;
+}
+
+.Section-3 .textcard .price h5{
+    color: #e16d14;
+    font-weight: bold;
+    font-size: 32px;
+}
+
+.Section-3 .textcard .price h4{
+    color: black;
+    margin-top: -8px;
+    font-weight: bold;
+}
+.flight{
+    font-size: medium;
+}
+
+.Section-3 p{
+    text-align: left;
+    padding: 60px 30px 0px 30px;
+    color: #4c4c4c;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.Section-3 .more{
+    width: 100%;
+    padding-bottom: 80px;
+}
+
+.Section-3 .more .readmore{
+    width: 40%;
+    float: left;
+    text-align: left;
+    padding-left: 20px;
+}
+
+.Section-3 .more .readmore button{
+   background-color: #4c4c4c;
+   color: white;
+   padding: 5px 15px;
+}
+
+.Section-3 .more .readmore button:hover{
+    background-color: #e16d14;
+}
+
+.Section-3 .more .readmore button a{
+    text-decoration: none; 
+    color: white;
+    font-weight: 500;
+}
+
+.Section-3 .more .booknow{
+    width: 40%;
+    float: right;
+}
+
+.Section-3 .more .booknow button{
+    background-color: #4c4c4c;
+    color: white;
+    padding: 5px 15px;
+}
+ 
+.Section-3 .more .booknow button:hover{
+    background-color: #e16d14;
+}
+ 
+.Section-3 .more .booknow button a{
+    text-decoration: none; 
+    color: white;
+    font-weight: 500;
+}
+
+.Section-4 .about{
+    background-image: url(../images/visa-background.jpg);
+    width: 100%;
+    height: 445px;
+    color: #666666;
+    text-align: center;
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.80857;
+    font-weight: normal;
+    box-sizing: border-box !important;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-attachment: fixed;
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.Section-4 .about h2{
+    font-size: 52px;
+    color: #e96e10;
+    font-weight: bold;
+    padding-bottom: 50px;
+}
+
+.Section-4 .about p{
+    text-align: center;
+    font-size: 18px;
+    color: white;
+    font-weight: 600;
+    line-height: 24px;
+    padding-bottom: 50px;
+}
+
+.Section-4 .about a{
+    font-size: 18px;
+   padding: 25px 70px;
+   background-color: #4c4c4c;
+   color: white;
+   text-decoration: none;
+}
+
+.Section-4 .about a:hover{
+    background-color: #e16d14;
+}
+
+.Section-5{
+    background-color: #ff6801;
+    background-image: linear-gradient(316deg, #ff6801 0%, #ffb347 74%);
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-top: 1px solid #e16d14;
+    text-align: center;
+}
+
+.Section-5 h6{
+    font-size: 38px;
+    color: black;
+    font-weight: 600;
+}
+
+.Section-5 p{
+    font-size: 22px;
+    color: white;
+    font-weight: 600;
+}
+
+.Section-5 .servicecard{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.Section-5 .servicecard .s1{
+    width: 100%;
+    height: 200px;
+    border: 5px solid #e16d14;
+    border-radius: 20px;
+}
+
+
+
+
+.Section-6{
+   padding-top: 30px;
+   padding-bottom: 50px;
+   border-top: 5px solid #e16d14;
+   text-align: center;
+}
+
+.Section-6 h4{
+    font-size: 48px;
+    color: #e96e10;
+    font-weight: bold;
+    padding-bottom: 30px;
+}
+
+.Section-7{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-top: 5px solid #e16d14;
+    border-bottom: 5px solid #e16d14;
+}
+
+.Section-7 h3{
+   color: #e16d14;
+   font-size: 40px;
+   padding-bottom: 20px;
+}
+
+.Section-7 .testimonials {
+    padding: 20px 0;
+}
+
+.Section-7 .testimonials .card {
+    transition: 0.5s;
+    margin-top: 40px;
+}
+
+.Section-7 .card-body{
+    padding-bottom: 0px;
+}
+
+.Section-7 .testimonials .card i {
+    background-color: #e16d14;
+    color: #ffffff;
+    width: 75px;
+    height: 75px;
+    line-height: 75px;
+    margin: -40px auto 0 auto;
+}
+
+.section11{
+    position: relative;
+    z-index: 9;
+    align-items: center;
+    padding-bottom: 50px;
+}
+
+.section11 .leftform{
+    width: 100%;
+}
+
+.section11 .leftform .info{
+    border: 1px solid #e16d14;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.section11 .leftform .info:hover{
+    top: -10px;
+}
+
+.section11 .leftform .info h4{
+    color:#e16d14;
+    font-weight: 700;
+}
+
+.section11 .rightform{
+    width: 100%;
+    padding-bottom: 20px;
+    padding: 10px;
+    margin-top: 20px;
+    text-align: center;
+    padding-left: 30px;
+    display: block;
+}
+
+.section11 .rightform .forminfo{
+    background-color: white;
+    border: 1px solid #e16d14;
+    border-radius: 10px;
+    padding: 10px;
+    position: relative;
+    z-index: 99;
+    box-shadow:  0 10px 30px rgb(0 0 0 / 10%);
+}
+
+
+.section11 .rightform .forminfo h4{
+    color: #e16d14;
+    font-weight: 700;
+    padding-top: 20px;
+}
+
+.section11 .rightform .forminfo h2{
+    color: var(--black);;
+    font-size: 2.25em;
+    line-height: 1.25;
+    font-weight: 600;
+}
+
+.section11 form{
+   padding:20px;
+}
+
+.section11 form input{
+    padding: 15px 25px;
+    width: 100%;
+    border-radius: 30px;
+    border: 1px solid #e16d14;
+    display: inline-block;
+    color:  #e16d14;
+}
+
+.section11 form .form{
+    padding-bottom: 20px;
+    border-radius: 20px;
+}
+textarea{
+    width: inherit;
+    padding: 15px 25px;
+   
+    border-radius: 30px;
+    border: 1px solid #e16d14;
+    display: inline-block;
+    color:  #e16d14;
+}
+.section11 form .form1 input{
+    padding-bottom: 100px;
+    border-radius: 20px;
+}
+
+.section11 .formbutton{
+    text-align: center;
+    padding-top: 30px;
+}
+
+.section11 .formbutton button{
+    border: 1px solid #e16d14;
+    background-color: #e16d14;
+    border-radius: 30px;
+    padding: 10px 30px;
+    display: inline-block;
+    color:white;
+    font-weight: bold;
+}
+
+.section11 .formicon{
+    padding-left: 50px;
+    padding-bottom: 0px;
+}
+
+.section11 .formicon .lni{
+    width: 60%;
+    height: 60%;
+    border: 2px solid #e16d14;
+    background-color: #e16d14;
+    border-radius: 50px;
+    display: inline-block;
+    text-align: center;
+    padding-top: 10px;
+}
+.section11 .formicon .lni-map-marker{
+    width: 60%;
+    height: 48%;
+    border: 2px solid #e16d14;
+    background-color: #e16d14;
+    border-radius: 50px;
+      display: inline-block;
+    text-align: center;
+    padding-top: 10px;
+}
+.formicon i{
+    top: 10px;
+    left: 15px;
+    font-size: 25px;
+    color: white;
+    position: absolute;
+}
+
+.section11 .map{
+    margin-top: 5%;
+}
+
+.section11 .map{
+    width: 106%;
+    margin-left: -2%;
+}
+
+footer{
+    padding-top:30px;
+    border-top: 4px solid #e16d14;
+}
+
+footer h4{
+    color: #e16d14;
+    font-size: 26px;
+}
+
+footer .social-icons{
+    padding-left: 0px;
+}
+
+footer .social-icons ul{
+   
+}
+
+footer .social-icons li{
+    
+    display: block;
+    padding: 5px;
+}
+
+footer .social-icons li a{
+    text-decoration: none;
+    padding: 5px 10px;
+}
+
+footer .social-icons li a img:hover{
+    width: 60px;
+    height: 60px;
+    box-shadow: #e16d14 2px 2px 2px 2px;
+    border-radius: 50%;
+    padding: 5px;
+}
+.pay-app{
+    margin: 0;
+    margin-top: 15px;
+}
+.img-size{
+    width: 200px;
+}
+footer h5{
+    text-align: center;
+    color: #e16d14;
+}
+
+.whtsApp {
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    z-index: 1000;
+  }
+  
+  .whatsapp-float {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background: #25d366;
+    box-shadow: 0px 0px 10px rgba(37, 211, 102, 0.7);
+    transition: transform 0.3s;
+  }
+  
+  .whatsapp-float::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background: rgba(37, 211, 102, 0.5);
+    animation: waveEffect 1.5s infinite ease-out;
+    z-index: -1;
+  }
+  
+  .whatsapp-float img {
+    width: 50px;
+  }
+  
+  @keyframes waveEffect {
+    0% {
+      transform: scale(1);
+      opacity: 0.8;
+    }
+    100% {
+      transform: scale(2.5);
+      opacity: 0;
+    }
+  }
+
+
+#myBtn{
+    position: fixed; /* Fixed/sticky position */
+    bottom: 20px; /* Place the button at the bottom of the page */
+    right: 30px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color:#666666; /* Set a background color */
+    color: white; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 15px; /* Some padding */
+    border-radius: 10px; /* Rounded corners */
+    font-size: 16px; /* Increase font size */
+}
+  
+#myBtn:hover {
+    background-color: #e16d14;
+}
+.blog-img1{
+   border-radius: 5px;
+}
+#Blogs img:hover{
+    max-width: 100%;
+    transition: all 0.4s ease-in-out 0s;
+    transform: scale(1.1);
+    border-radius: 5px;
+}
+.blog-text{
+    margin-top: 20px;
+}
+/* Responsive CSS */
+/* Standard Desktop */
+@media (min-width:992px) and (max-width:1200px){
+       
+}
+
+/* Tablet Portrait */
+@media(max-width:991px){
+  
+    .Section-4 .about{
+        padding-top: 0;
+    }
+    .section11 .formicon .lni {
+        width: 5%;
+        height: fit-content;    
+        padding: 4px;
+      }
+      .formicon i {
+        top: 2px;
+        font-size: 21px;
+      }
+      .section11 .leftform .info h4 {
+        margin-left: 40px;
+      }
+      header .logo{
+        padding-left: 0;
+      }
+      .headmenu ul li a{
+        font-size: 17px;
+      }
+      .headmenu .page-scroll1{
+    
+            width: 137px;
+            font-size: 17px;
+            display: block;
+            margin-top: -11px;
+      }
+      .headmenu ul {
+        margin-left: -30px;
+    }
+    .headmenu ul li {
+        margin: 0px 4px;
+      }
+}
+
+/* Mobile */ 
+@media (max-width:767px){
+
+    .menu-toggle {
+        display: block;
+        float: right;
+        font-size: 24px;
+    color: black;
+    }
+    .headmenu ul {
+        display: none;
+        flex-direction: column;
+        background: #333333a8;
+        width: 100%;
+        position: absolute;
+        top: 50px;
+        left: 0;
+        padding: 10px 0;
+        z-index: 1;
+    }
+    .headmenu ul.active {
+        display: flex;
+    }
+    .headmenu ul li {
+        text-align: center;
+        margin: 10px 0;
+        color: white;
+    }
+    header .logo{
+        padding-left: 0px;
+        
+    }
+    .headmenu ul li a {
+        color: white
+        
+    }
+    header .headmenu{
+        float: right;
+        background:transparent;
+    }
+
+    .Section{
+        padding-top: 30%;
+    }
+
+    .Section .carousel-item{
+       
+    }
+
+    .Section .carousel-item h1{
+        padding-top: 0px;
+        font-size: 32px;
+        padding-bottom: 10px;
+        line-height: 40px;
+    }
+
+    .Section .carousel-item h6{
+        font-size: 16px;
+        line-height: 18px;
+    }
+
+    .Section .read-us{
+        padding: 0px;
+    }
+
+    .Section .read-us .box{
+       
+    }
+
+    .Section .read-us .box a{
+       padding: 15px 10px;
+       font-size: 20px;
+    }
+
+    .Section-2{
+        margin-top: -50%;
+        padding: 0px 20px;
+    }
+
+    .Section-2 .container{
+        padding: 0px;
+    }
+
+    .Section-2 .card{
+        padding: 5px;
+    }
+
+    .Section-2 .card{
+       /* width: ; */
+    }
+
+    .Section-2 .mt-5{
+        padding: 0px 15px;
+    }
+
+
+    .Section-2 .mt-4 img{
+       
+    }
+    #filterable-cards{
+        justify-content: center;
+    }
+    h4{
+
+    }
+    .section11 .rightform{
+        margin-left: -11px;
+    }
+    .Section-2 #filter-buttons button {
+        font-size: 12px;
+    }
+
+    .Section-3 img{
+        width: 320px;  
+    }
+
+    .Section-4 .about{
+        padding-top: 45px;
+    }
+
+    .Section-4 .about h2{
+        font-size: 36px;
+        padding-bottom: 0;
+    }
+
+    .Section-4 .about p{
+        padding-top: 10px;
+        font-size: 16px;
+        line-height: 18px;
+    }
+    a{
+        text-decoration: none;
+        color: black;
+    }
+
+    #myBtn{
+        position: fixed; /* Fixed/sticky position */
+        bottom: 20px; /* Place the button at the bottom of the page */
+        right: 0px; /* Place the button 30px from the right */
+     
+    }
+    #Packages h4{
+        font-size: 16px;
+    }
+    .flight {
+        font-size: 14px;
+      }
+      .section11 .leftform .info h4 {
+        margin-left: 40px;
+      }
+      .section11 .formicon .lni {
+        width: 9%;
+        height: fit-content;    
+        padding: 4px;
+      }
+      .formicon i {
+        top: 2px;
+        font-size: 21px;
+      }
+      .section11 .map {
+        width: 100%;
+        margin-left:0;
+      }
+}
+@media (max-width: 480px) {
+    #Packages h4 {
+        font-size: 14px;
+      }
+      .flight {
+        font-size: 12px;
+      }
+      .Section-4 .about p {
+        padding-bottom: 11px;
+      }
+      .Section-4 .about{
+        height: 545px;
+      }
+      .menu-toggle {
+        display: block;
+        float: right;
+        font-size: 24px;
+    color: black;
+    }
+    .headmenu ul {
+        background: #333333a8;
+        z-index: 1;
+    }
+    .headmenu ul.active {
+        display: flex;
+    }
+    .headmenu ul li {
+        text-align: center;
+        margin: 10px 0;
+        color: white;
+    }
+    header .logo{
+        padding-left: 0px;
+    }
+    header .headmenu{
+        float: right;
+        background:transparent;
+    }
+    .headmenu .page-scroll1 {
+        width: 137px;
+        font-size: 17px;
+        display: block;
+       
+        color: white;
+        margin-left: 145px;
+      }
+}
